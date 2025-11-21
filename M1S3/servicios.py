@@ -1,3 +1,4 @@
+import csv
 inventario = []
 
 def agregarProducto():
@@ -75,4 +76,11 @@ def eliminarProducto():
     
 
 def calcEstadistica():
-    print()
+    if not inventario:
+        print("Nohay inventario")
+    else:
+        totalProductos = len(inventario)
+        totalValor = sum(productos['precio'] * productos['cantidad'] for productos in inventario)
+        print(f"Total de productos: {totalProductos}")
+        print(F"Valor total de productos: $ {totalValor}")
+

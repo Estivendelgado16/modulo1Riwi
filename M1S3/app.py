@@ -28,6 +28,10 @@ while True:
         servicios.eliminarProducto()
     elif menu == 6:
         servicios.calcEstadistica()
+    elif menu == 7:
+        servicios.guardarCSV()
+    elif menu == 8:
+        servicios.cargarCSV()
     elif menu == 9:
         break
 
