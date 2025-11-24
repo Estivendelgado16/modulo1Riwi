@@ -1,4 +1,3 @@
-# Lista global para guardar los productos
 inventario = []
 
 def agregar_producto():
