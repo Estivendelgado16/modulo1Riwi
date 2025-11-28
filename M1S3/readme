@@ -15,7 +15,7 @@ Funciones principales
 
 Cómo usarlo
 
-1. Ejecuta el archivo Python.
+1. Ejecuta el archivo app.py en ti IDE.
 2. Usa el menú y selecciona la opción que quieras.
 3. Si guardas el inventario, se crea un archivo CSV con los datos.
 4 .Cuando vuelvas a ejecutar, puedes cargar ese archivo y seguir trabajando.
